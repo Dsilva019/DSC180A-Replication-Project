@@ -27,12 +27,13 @@ The goal of this project was to learn how to mitigate bias in machine learning m
     `source venv/bin/activate`
 - download the dependencies:
     `pip install -r AIF360_Files/requirements.txt`
+- install the necessary packages using pip
+    `pip install matplotlib numpy IPython pandas seaborn sklearn aif360`
 
 ##### 3) Downloading the Data
 - navigate to https://www.kaggle.com/datasets/nanrahman/mepsdata to find the data
-- download the data as a .zip (it includes both 181.csv and h192.csv)
-- create a folder in the location:
-    `AIF360_Files/aif460/data/raw`
-- extract both of the csv files into the newly created directory
+- download the data as a .zip (it includes both h181.csv and h192.csv)
+- extract the csv files into the same folder as the notebook
+
 
 
